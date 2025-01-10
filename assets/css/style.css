@@ -16,7 +16,7 @@ a{
 }
 
 .container{
-    max-width: 1170px;
+    max-width: 90%;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -39,11 +39,53 @@ a{
     font-size: 16px;
     font-weight: 600;
     color: #006A50;
-    border: 2px solid #006A50;
-    padding: 10px 15px;
+    border: 1px solid #006A50;
+    padding: 10px 20px;
+    transition: all linear 0.3s;
+    border-radius: 5px;
 }
 
 .sing:hover{
     background-color: #006A50;
     color: white;
+}
+
+ /* banner part style */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px;
+    background-color: #C6E4D6;
+    border-radius: 15px;
+}
+
+.hero-contain{
+    width: 50%;
+}
+
+.hero-contain h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0e0e0e;
+    margin-bottom: 16px;
+    opacity: 50%;
+}
+
+.hero-contain h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e0e0e;
+    margin-bottom: 20px;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+    border: none;
 }
