@@ -57,7 +57,7 @@ a{
     align-items: center;
     padding: 80px 100px;
     background-color: #C6E4D6;
-    border-radius: 15px;
+    border-radius: 24px;
 }
 
 .hero-contain{
@@ -88,4 +88,141 @@ a{
     border-radius: 5px;
     transition: all linear 0.3s;
     border: none;
+}
+
+.btn:hover{
+    background-color: #0e0e0e;
+}
+
+/* pillar part style */
+.common_heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0e0e0e; 
+    margin-bottom: 20px;
+}
+
+.Pillar{
+   margin:80px auto;
+}
+
+.pillar_community{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pillar_c_1{
+    width: 24%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    
+}
+
+.pillar_c_1 img{
+    margin-bottom: 20px;
+}
+
+.pillar_c_1 h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e0e0e;
+    margin-bottom: 10px;
+    opacity: 80%;
+}
+
+.pillar_c_1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+    opacity: 70%;
+}
+
+
+/* vision part style */
+.c_pragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+    opacity: 70%;
+    margin-bottom: 20px;
+}
+
+.vision_community{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vision_c_1{
+    width: 32%;
+    background-color: #548ff54a;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.vision_c_1 img{
+    margin-bottom: 20px;
+}
+
+.vision_c_1 h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e0e0e;
+    margin-bottom: 10px;
+    opacity: 80%;
+}
+
+.vision_c_1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+    margin-bottom: 20px;
+    opacity: 70%;
+}
+
+.vision-2{
+    background-color: #C6E4D6;
+}
+
+.vision-3{
+    background-color: #F7EBCF;
+}
+
+.v1-btn{
+    background-color: #5490F5;
+}
+
+.v2-btn{
+    background-color: #09A15C;
+}
+
+.v3-btn{
+    background-color: #FFC239;
+}
+
+.yunus{
+    margin: 32px auto;
+    padding: 48px 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    background-image: url(../image/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 24px top 24px;
+}
+
+.yunus .title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0e0e0e;
+    margin-bottom: 10px;
+    opacity: 80%;
+}
+
+.yunus .sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+    opacity: 60%;
 }
